@@ -33,6 +33,7 @@ p.videod{
     font-weight: bold;
     font-family: "M";
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 /*#confpai{
     display: flex;
@@ -333,6 +334,7 @@ p{
         font-weight: bold;
         font-family: "M";
         color: rgb(255, 255, 255);
+        text-align: center;
     }
     /*#confpai{
         display: flex;

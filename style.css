@@ -10,6 +10,8 @@ body{
     background-color: #ffffff;
 }
 #container{
+    max-width: 940px;
+    margin: 0px auto;
 }
 #disppai{
     display: flex;
@@ -141,7 +143,6 @@ p#preç{
 #provapai{
     display: flex;
     justify-content: initial;
-    max-width: 1100px;
     background-color: #ffffff;
     margin: 0px auto;
     flex-direction: column;
@@ -217,8 +218,16 @@ p#preç{
 #imgref{
     width: 4vw;
 }
+#imagensuni{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+}
+.imguni{
+    display: block;
+    width: 20%;
+}
 ul#ref{
-    margin: 30px auto;
     list-style: none;
 }
 li.pref{
@@ -285,6 +294,7 @@ li.pref{
     font-size: 16px;
     margin-bottom: 25px;
     text-align: center;
+    max-width: 940px;
 }
 p.barra{
     font-size: 12px;
@@ -300,6 +310,8 @@ p{
 }
 @media only screen and (max-width: 768px) {
     #container{
+        max-width: 940px;
+        margin: 0px auto;
     }
     #disppai{
         display: flex;
@@ -430,7 +442,6 @@ p{
     #provapai{
         display: flex;
         justify-content: initial;
-        max-width: 1100px;
         background-color: #ffffff;
         margin: 0px auto;
         flex-direction: column;
@@ -505,8 +516,16 @@ p{
     #imgref{
         width: 6vw;
     }
+    #imagensuni{
+        display: flex;
+        margin: 20px 0px;
+        justify-content: center;
+    }
+    .imguni{
+        display: block;
+        width: 25%;
+    }
     ul#ref{
-        margin: 20px auto;
         list-style: none;
     }
     li.pref{
@@ -573,6 +592,7 @@ p{
         font-size: 10px;
         margin-bottom: 16.6px;
         text-align: center;
+        max-width: 940px;
     }
     p.barra{
         font-size: 14px;
